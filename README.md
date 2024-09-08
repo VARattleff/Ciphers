@@ -15,7 +15,7 @@ src/cipher.c \
 ## Demonstration og Introduktion
 
 1. Vælg først, om du vil kryptere eller dekryptere.
-2. Vælg derefter skiftværdien.
+2. Vælg derefter shiftvalue.
 
 ### Opgave
 
