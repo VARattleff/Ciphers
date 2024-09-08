@@ -2,8 +2,8 @@
 #include <ctype.h>
 #include <string.h>
 
-const char ALPHABET[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const int ALPHABET_LENGTH = 26;
+const char ALPHABET[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ";
+const int ALPHABET_LENGTH = 29;
 
 int letterToNumber(char letter) {
     letter = toupper(letter); 
