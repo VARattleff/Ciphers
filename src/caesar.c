@@ -33,7 +33,7 @@ int main()
             printf("You selected decrypt\n");
             printf("Please provide the shift amount for the Caesar cipher: ");
             get_shift_value(&shift_value);  
-            if (shift_value <= 0 || shift_value > 29) {
+            if (shift_value <0 || shift_value > 29) {
                 printf("\n\n-------------------------------------------\n");
                 printf("Error reading input. Returning main menu...\n");
                 printf("-------------------------------------------\n\n");
@@ -50,7 +50,7 @@ int main()
             printf("You selected encrypt\n");
             printf("Please provide the shift amount for the Caesar cipher: ");
             get_shift_value(&shift_value);
-            if (shift_value <= 0 || shift_value > 29) {  
+            if (shift_value < 0 || shift_value > 29) {  
                 printf("\n\n-------------------------------------------\n");
                 printf("Error reading input. Returning main menu...\n");
                 printf("-------------------------------------------\n\n");
